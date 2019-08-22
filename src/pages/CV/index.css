@@ -1,0 +1,25 @@
+.bg{
+    background-color: #eaeaea;
+    padding: 10px;
+}   
+.bj{
+    font-size: 14px;
+    padding: 3px;
+}
+.xm{
+    font-size: 16px;
+    padding: 3px;
+}
+.a1{
+    display: inline-block;
+     
+}
+.a1:hover{
+    background: url(./img/qrcode.jpg);
+    display: inline-block;
+    width: 258px;
+    height: 258px;
+}
+.img{
+
+}
