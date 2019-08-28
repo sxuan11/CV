@@ -94,14 +94,25 @@ export class index extends Component {
                 hoverable={true} 
                 style={{ marginTop:'5px' }}>
                     <Row type="flex" justify="space-around" className="bg">     
-                        <Col className="bj" xs={24} sm={24} md={24} lg={24}><div>● <a target='blank' href="http://47.102.100.226">预览页面(手机端)</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a target='blank' href="https://github.com/sxuan11/vuepdd/tree/master/PDD">GitHub源码</a></div></Col>
+                        <Col className="bj" xs={24} sm={24} md={24} lg={24}>
+                            <div>● 
+                                <span>简易商城页面</span>&nbsp;&nbsp;
+                                <a target='blank' href="http://47.102.100.226">预览页面(手机端)</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a target='blank' href="https://github.com/sxuan11/vuepdd/tree/master/PDD">GitHub源码</a>
+                            </div>
+                        </Col>
                         <Col className="bj" span={24}>● 使用到的技术栈：Vue+Vuex+Vue Router+Express+ES6+Webpack+Mysql+Ajax(Axios)</Col>
                         <Col className="bj" span={24}>● 这个是个人完成的一个小demo</Col>
                         <Col className="bj" span={24}>● 前端页面：vue+vue-router(路由)+vuex(状态管理)+vue-lazyload(图片懒加载)+mint-ui(界面构建)</Col>
                         <hr/>
-                       
-                        <Col className="bj" span={24}>● 前端页面：vue+vue-router(路由)+vuex(状态管理)+vue-lazyload(图片懒加载)+mint-ui(界面构建)</Col>
+                        <Col className="bj" span={24}>
+                        <div>● 
+                                <span>网页版简历</span>&nbsp;&nbsp;
+                                <a target='blank' href="https://github.com/sxuan11/CV">GitHub源码</a>
+                            </div>
+                        </Col>
+                        <Col className="bj" span={24}>● 使用到的技术栈：React + React-router-dom + Ant-Design + jsonp</Col>
+                        
                         
                     </Row>
                 </Card>
